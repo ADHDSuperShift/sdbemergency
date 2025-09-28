@@ -14,7 +14,8 @@ const AppLayout: React.FC = () => {
   const loadProvinceData = async (province: Province) => {
     setLoading(true);
     try {
-      const response = await fetch(`/data/${province.toLowerCase().replace(/\s+/g, '')}.json`);
+      const basePath = '/sdbemergency/';
+      const response = await fetch(`${basePath}data/${province.toLowerCase().replace(/\s+/g, '')}.json`);
       if (response.ok) {
         const data: ProvinceData = await response.json();
         setProvinceData(data);
