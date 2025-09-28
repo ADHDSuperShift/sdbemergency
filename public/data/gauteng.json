@@ -1,0 +1,358 @@
+{
+  "province": "Gauteng",
+  "towns": {
+    "Johannesburg": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Johannesburg Central SAPS",
+          "phone": "011-375-2800",
+          "address": "Main Street, Johannesburg CBD"
+        },
+        {
+          "category": "Fire",
+          "name": "Johannesburg Emergency Services",
+          "phone": "011-375-5911",
+          "address": "City of Johannesburg"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Gauteng EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Charlotte Maxeke Hospital",
+          "phone": "011-488-4911",
+          "address": "Johannesburg Hospital, Parktown"
+        }
+      ]
+    },
+    "Pretoria": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Pretoria Central SAPS",
+          "phone": "012-393-9000",
+          "address": "Pretorius Street, Pretoria"
+        },
+        {
+          "category": "Fire",
+          "name": "Tshwane Emergency Services",
+          "phone": "012-358-7095",
+          "address": "City of Tshwane"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Gauteng EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Steve Biko Hospital",
+          "phone": "012-354-1000",
+          "address": "Pretoria Academic Hospital"
+        }
+      ]
+    },
+    "Alexandra": {
+      "services": [
+        { "category": "Police", "name": "Alexandra SAPS", "phone": "011 321 7621", "address": "69 15th Avenue, Alexandra" },
+        { "category": "Fire", "name": "Alexandra Fire Station", "phone": "011 445 4900", "address": "Alexandra, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Alexandra, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Medi Response (JHB North)", "phone": "087 330 3911", "address": "Alexandra, City of Johannesburg" },
+        { "category": "Hospital", "name": "Mediclinic Morningside (nearest)", "phone": "011 282 5000", "address": "Sandton, City of Johannesburg" }
+      ]
+    },
+    "Atholl": {
+      "services": [
+        { "category": "Police", "name": "Sandton SAPS", "phone": "011 722 4200", "address": "2 Summit Road, Sandown, Sandton" },
+        { "category": "Fire", "name": "Sandton Fire Station", "phone": "011 375 5911", "address": "Sandton, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Atholl, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Atholl, City of Johannesburg" },
+        { "category": "Hospital", "name": "Mediclinic Sandton", "phone": "011 709 2000", "address": "Sandton, City of Johannesburg" }
+      ]
+    },
+    "Barbeque_Downs": {
+      "services": [
+        { "category": "Police", "name": "Midrand SAPS", "phone": "011 347 1600", "address": "Smuts Dr & Oracle St, Halfway Gardens" },
+        { "category": "Fire", "name": "Midrand Fire Station", "phone": "011 375 5911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Medi Response (Midrand)", "phone": "087 330 3911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Waterfall City Hospital", "phone": "011 304 6600", "address": "Midrand, City of Johannesburg" }
+      ]
+    },
+    "Bassonia": {
+      "services": [
+        { "category": "Police", "name": "Mondeor SAPS", "phone": "011 433 5400", "address": "263 Royal Park Dr, Mondeor" },
+        { "category": "Fire", "name": "Kibler Park Fire Station", "phone": "011 375 5911", "address": "Kibler Park, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Bassonia, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Bassonia, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Mulbarton Hospital", "phone": "011 682 4300", "address": "Mulbarton, Johannesburg South" }
+      ]
+    },
+    "Berea": {
+      "services": [
+        { "category": "Police", "name": "Hillbrow SAPS", "phone": "011 488 6511", "address": "1 Clarendon Pl, Hillbrow" },
+        { "category": "Fire", "name": "Berea/Hillbrow Fire Station", "phone": "011 488 6500", "address": "Berea/Hillbrow, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Berea, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Berea, City of Johannesburg" },
+        { "category": "Hospital", "name": "Life Brenthurst Hospital", "phone": "011 481 2000", "address": "Parktown, Johannesburg" }
+      ]
+    },
+    "Bramley": {
+      "services": [
+        { "category": "Police", "name": "Bramley SAPS", "phone": "011 445 4113", "address": "637 Louis Botha Ave, Bramley" },
+        { "category": "Fire", "name": "Gallo Manor Fire Station (satellite)", "phone": "011 375 5911", "address": "Gallo Manor, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Bramley, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Bramley, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Linksfield Hospital", "phone": "011 647 3400", "address": "Linksfield, Johannesburg" }
+      ]
+    },
+    "Brixton": {
+      "services": [
+        { "category": "Police", "name": "Brixton SAPS", "phone": "011 837 4427", "address": "High St & Mercury St, Brixton" },
+        { "category": "Fire", "name": "Brixton Fire Station", "phone": "011 248 5500", "address": "Brixton, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Brixton, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Brixton, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Garden City Hospital", "phone": "011 495 5000", "address": "Mayfair West, Johannesburg" }
+      ]
+    },
+    "Diepsloot": {
+      "services": [
+        { "category": "Police", "name": "Diepsloot SAPS", "phone": "011 367 6300", "address": "Buffalo St Ext 2, Diepsloot" },
+        { "category": "Fire", "name": "Diepsloot Fire Station (satellite)", "phone": "011 375 5911", "address": "Diepsloot, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Diepsloot, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Medi Response (JHB North)", "phone": "087 330 3911", "address": "Diepsloot, City of Johannesburg" },
+        { "category": "Hospital", "name": "Life Fourways Hospital", "phone": "011 875 1000", "address": "Fourways, Sandton" }
+      ]
+    },
+    "Dobsonville": {
+      "services": [
+        { "category": "Police", "name": "Dobsonville SAPS", "phone": "011 988 6065", "address": "Elias Motsoaledi Rd, Dobsonville" },
+        { "category": "Fire", "name": "Dobsonville Fire Station", "phone": "011 375 5911", "address": "Dobsonville, Soweto" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Dobsonville, Soweto" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Dobsonville, Soweto" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Douglasdale": {
+      "services": [
+        { "category": "Police", "name": "Douglasdale SAPS", "phone": "011 699 1333", "address": "Topaas Ave & Douglas Dr, Douglasdale" },
+        { "category": "Fire", "name": "Lonehill Fire Station", "phone": "011 465 5792", "address": "Lonehill, Sandton" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Douglasdale, Sandton" },
+        { "category": "Ambulance", "name": "Medi Response (Fourways)", "phone": "087 330 3911", "address": "Fourways, Sandton" },
+        { "category": "Hospital", "name": "Life Fourways Hospital", "phone": "011 875 1000", "address": "Fourways, Sandton" }
+      ]
+    },
+    "Eldorado_Park": {
+      "services": [
+        { "category": "Police", "name": "Eldorado Park SAPS", "phone": "011 945 1170", "address": "Hoof Rd & Buckingham St, Ext 5" },
+        { "category": "Fire", "name": "Eldorado Park Fire Station", "phone": "011 375 5911", "address": "Eldorado Park, Johannesburg South" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Eldorado Park, Johannesburg South" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Eldorado Park, Johannesburg South" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Ennerdale": {
+      "services": [
+        { "category": "Police", "name": "Ennerdale SAPS", "phone": "011 855 1055", "address": "3 Louw Rd, Ennerdale" },
+        { "category": "Fire", "name": "Orange Farm / Ennerdale Fire Station", "phone": "011 375 5911", "address": "Ennerdale / Orange Farm, Johannesburg South" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Ennerdale, Johannesburg South" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Ennerdale, Johannesburg South" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Fairland": {
+      "services": [
+        { "category": "Police", "name": "Fairland SAPS", "phone": "011 478 9400", "address": "Sophia St & 11th Ave, Fairland" },
+        { "category": "Fire", "name": "Fairland Fire Station", "phone": "011 375 5911", "address": "Fairland, Randburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Fairland, Randburg" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Fairland, Randburg" },
+        { "category": "Hospital", "name": "Life Wilgeheuwel Hospital (nearest)", "phone": "011 796 6500", "address": "Roodepoort, West Rand" }
+      ]
+    },
+    "Florida": {
+      "services": [
+        { "category": "Police", "name": "Florida SAPS", "phone": "011 831 7000", "address": "5 Sauer St, Florida" },
+        { "category": "Fire", "name": "Florida Fire Station", "phone": "011 375 5911", "address": "Florida, Roodepoort" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Florida, Roodepoort" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Florida, Roodepoort" },
+        { "category": "Hospital", "name": "Life Flora Hospital", "phone": "011 470 7777", "address": "Roodepoort, West Rand" }
+      ]
+    },
+    "Hillbrow": {
+      "services": [
+        { "category": "Police", "name": "Hillbrow SAPS", "phone": "011 488 6511", "address": "1 Clarendon Pl, Hillbrow" },
+        { "category": "Fire", "name": "Berea/Hillbrow Fire Station", "phone": "011 488 6500", "address": "Berea/Hillbrow, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Hillbrow, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Hillbrow, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Milpark Hospital (nearest)", "phone": "011 480 5600", "address": "Milpark, Johannesburg" }
+      ]
+    },
+    "Honeydew": {
+      "services": [
+        { "category": "Police", "name": "Honeydew SAPS", "phone": "011 801 8400", "address": "Plot 3 Juice Rd, Honeydew" },
+        { "category": "Fire", "name": "Honeydew Fire Station", "phone": "011 794 1236", "address": "Honeydew, Roodepoort" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Honeydew, Roodepoort" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Honeydew, Roodepoort" },
+        { "category": "Hospital", "name": "Life Wilgeheuwel Hospital", "phone": "011 796 6500", "address": "Roodepoort, West Rand" }
+      ]
+    },
+    "Ivory_Park": {
+      "services": [
+        { "category": "Police", "name": "Ivory Park SAPS", "phone": "011 990 9600", "address": "21 August St, Ivory Park" },
+        { "category": "Fire", "name": "Ivory Park Fire Station", "phone": "011 654 9423", "address": "Ivory Park, Midrand" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Ivory Park, Midrand" },
+        { "category": "Ambulance", "name": "Medi Response (Midrand)", "phone": "087 330 3911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Sunninghill Hospital (nearest)", "phone": "011 806 1500", "address": "Sunninghill, Sandton" }
+      ]
+    },
+    "Jabulani": {
+      "services": [
+        { "category": "Police", "name": "Jabulani SAPS", "phone": "011 527 7000", "address": "Bolani Rd, Jabulani" },
+        { "category": "Fire", "name": "Jabulani Fire Station", "phone": "011 375 5911", "address": "Jabulani, Soweto" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Jabulani, Soweto" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Jabulani, Soweto" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Jeppestown": {
+      "services": [
+        { "category": "Police", "name": "Jeppe SAPS", "phone": "011 624 6000", "address": "Albertina Sisulu Rd, Jeppestown" },
+        { "category": "Fire", "name": "Central Fire Station (Ferreirasdorp)", "phone": "011 375 5911", "address": "Ferreirasdorp, Johannesburg CBD" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Jeppestown, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Jeppestown, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Garden City Hospital", "phone": "011 495 5000", "address": "Mayfair West, Johannesburg" }
+      ]
+    },
+    "Johannesburg_CBD": {
+      "services": [
+        { "category": "Police", "name": "Johannesburg Central SAPS", "phone": "011 497 7000", "address": "1 Commissioner St, Johannesburg CBD" },
+        { "category": "Fire", "name": "Johannesburg Central Fire Station", "phone": "011 375 5911", "address": "Johannesburg CBD" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Johannesburg CBD" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Johannesburg CBD" },
+        { "category": "Hospital", "name": "Netcare Milpark Hospital", "phone": "011 480 5600", "address": "Milpark, Johannesburg" }
+      ]
+    },
+    "Kliptown": {
+      "services": [
+        { "category": "Police", "name": "Kliptown SAPS", "phone": "011 945 4489", "address": "49 Beacon Rd, Kliptown" },
+        { "category": "Fire", "name": "Diepkloof Fire Station", "phone": "011 933 4700", "address": "Diepkloof, Soweto" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Kliptown, Soweto" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Kliptown, Soweto" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Lenasia": {
+      "services": [
+        { "category": "Police", "name": "Lenasia SAPS", "phone": "011 213 6000", "address": "1 Duiker St, Lenasia" },
+        { "category": "Fire", "name": "Lenasia Fire Station", "phone": "011 375 5911", "address": "Lenasia, Johannesburg South" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Lenasia, Johannesburg South" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Lenasia, Johannesburg South" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Midrand": {
+      "services": [
+        { "category": "Police", "name": "Midrand SAPS", "phone": "011 347 1600", "address": "Smuts Dr & Oracle St, Halfway Gardens" },
+        { "category": "Fire", "name": "Midrand Fire Station", "phone": "011 375 5911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Midrand, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Medi Response (Midrand)", "phone": "087 330 3911", "address": "Midrand, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Waterfall City Hospital", "phone": "011 304 6600", "address": "Midrand, City of Johannesburg" }
+      ]
+    },
+    "Mondeor": {
+      "services": [
+        { "category": "Police", "name": "Mondeor SAPS", "phone": "011 433 5400", "address": "263 Royal Park Dr, Mondeor" },
+        { "category": "Fire", "name": "JHB South / Jabulani coverage", "phone": "011 375 5911", "address": "Johannesburg South" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Mondeor, Johannesburg South" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Mondeor, Johannesburg South" },
+        { "category": "Hospital", "name": "Netcare Mulbarton Hospital", "phone": "011 682 4300", "address": "Mulbarton, Johannesburg South" }
+      ]
+    },
+    "Norwood": {
+      "services": [
+        { "category": "Police", "name": "Norwood SAPS", "phone": "011 483 4600", "address": "12 Paterson St, Norwood" },
+        { "category": "Fire", "name": "Sandringham Fire Station", "phone": "011 719 4800", "address": "Sandringham, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Norwood, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Norwood, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Linksfield Hospital", "phone": "011 647 3400", "address": "Linksfield, Johannesburg" }
+      ]
+    },
+    "Orange_Farm": {
+      "services": [
+        { "category": "Police", "name": "Orange Farms SAPS", "phone": "011 213 8025", "address": "Ext 4, Orange Farm" },
+        { "category": "Fire", "name": "Orange Farm Fire Station", "phone": "011 375 5911", "address": "Orange Farm, Johannesburg South" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Orange Farm, Johannesburg South" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Orange Farm, Johannesburg South" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital (nearest)", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Parkhurst": {
+      "services": [
+        { "category": "Police", "name": "Parkview SAPS", "phone": "011 067 6000", "address": "71 Dundalk Ave, Parkview" },
+        { "category": "Fire", "name": "Rosebank Fire Station", "phone": "011 375 5911", "address": "Rosebank, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Parkhurst, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Parkhurst, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Rosebank Hospital (nearest)", "phone": "011 328 0500", "address": "Rosebank, City of Johannesburg" }
+      ]
+    },
+    "Randburg": {
+      "services": [
+        { "category": "Police", "name": "Randburg SAPS", "phone": "011 449 9000", "address": "20 Shepherd Ave, Kensington B" },
+        { "category": "Fire", "name": "Randburg Fire Station", "phone": "011 375 5911", "address": "Randburg, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Randburg, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Randburg, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Olivedale Hospital", "phone": "011 777 2000", "address": "Olivedale, Randburg" }
+      ]
+    },
+    "Roodepoort": {
+      "services": [
+        { "category": "Police", "name": "Roodepoort SAPS", "phone": "011 279 6521", "address": "4 Raath St, Horison, Roodepoort" },
+        { "category": "Fire", "name": "Roodepoort (Florida) Fire Station", "phone": "011 375 5911", "address": "Florida, Roodepoort" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Roodepoort, West Rand" },
+        { "category": "Ambulance", "name": "Quick Response Service (QRS)", "phone": "081 277 7777", "address": "Roodepoort, West Rand" },
+        { "category": "Hospital", "name": "Life Flora Hospital", "phone": "011 470 7777", "address": "Roodepoort, West Rand" }
+      ]
+    },
+    "Rosebank": {
+      "services": [
+        { "category": "Police", "name": "Rosebank SAPS", "phone": "011 778 4700", "address": "15 Sturdee Ave, Rosebank" },
+        { "category": "Fire", "name": "Rosebank Fire Station", "phone": "011 375 5911", "address": "Rosebank, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Rosebank, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Rosebank, City of Johannesburg" },
+        { "category": "Hospital", "name": "Netcare Rosebank Hospital", "phone": "011 328 0500", "address": "Rosebank, City of Johannesburg" }
+      ]
+    },
+    "Sandton": {
+      "services": [
+        { "category": "Police", "name": "Sandton SAPS", "phone": "011 722 4200", "address": "2 Summit Rd, Sandown, Sandton" },
+        { "category": "Fire", "name": "Sandton Fire Station", "phone": "011 375 5911", "address": "Sandton, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Sandton, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Medi Response (Sandton)", "phone": "087 330 3911", "address": "Sandton, City of Johannesburg" },
+        { "category": "Hospital", "name": "Mediclinic Sandton", "phone": "011 709 2000", "address": "Sandton, City of Johannesburg" }
+      ]
+    },
+    "Soweto": {
+      "services": [
+        { "category": "Police", "name": "Moroka SAPS", "phone": "011 527 0000", "address": "Chris Hani Rd & Koma Rd, Soweto" },
+        { "category": "Fire", "name": "Diepkloof / Jabulani Fire Stations", "phone": "011 375 5911", "address": "Soweto, City of Johannesburg" },
+        { "category": "Ambulance", "name": "ER24", "phone": "084 124", "address": "Soweto, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Maponya 911 Ambulance", "phone": "0861 960 960", "address": "Soweto, City of Johannesburg" },
+        { "category": "Hospital", "name": "Lenmed Ahmed Kathrada Private Hospital", "phone": "011 213 2000", "address": "Lenasia, Johannesburg South" }
+      ]
+    },
+    "Yeoville": {
+      "services": [
+        { "category": "Police", "name": "Yeoville SAPS", "phone": "011 481 0300", "address": "53–55 Becker St, Yeoville" },
+        { "category": "Fire", "name": "Berea/Hillbrow Fire Station", "phone": "011 488 6500", "address": "Berea/Hillbrow, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Netcare 911", "phone": "082 911", "address": "Yeoville, City of Johannesburg" },
+        { "category": "Ambulance", "name": "Ambu-Link Ambulance", "phone": "076 023 5000", "address": "Yeoville, City of Johannesburg" },
+        { "category": "Hospital", "name": "Life Brenthurst Hospital (nearest)", "phone": "011 481 2000", "address": "Parktown, Johannesburg" }
+      ]
+    }
+  }
+}

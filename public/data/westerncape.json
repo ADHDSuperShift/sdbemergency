@@ -1,0 +1,61 @@
+{
+  "province": "Western Cape",
+  "towns": {
+    "Cape Town": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Cape Town Central SAPS",
+          "phone": "021-467-9000",
+          "address": "Caledon Square, Cape Town"
+        },
+        {
+          "category": "Fire",
+          "name": "City of Cape Town Fire Services",
+          "phone": "021-480-7700",
+          "address": "City of Cape Town"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Western Cape EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Groote Schuur Hospital",
+          "phone": "021-404-9111",
+          "address": "Observatory, Cape Town"
+        }
+      ]
+    },
+    "Stellenbosch": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Stellenbosch SAPS",
+          "phone": "021-809-5000",
+          "address": "Plein Street, Stellenbosch"
+        },
+        {
+          "category": "Fire",
+          "name": "Stellenbosch Fire Department",
+          "phone": "021-808-8888",
+          "address": "Municipal Building"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Western Cape EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Stellenbosch Hospital",
+          "phone": "021-938-9111",
+          "address": "Francie van Zijl Drive"
+        }
+      ]
+    }
+  }
+}

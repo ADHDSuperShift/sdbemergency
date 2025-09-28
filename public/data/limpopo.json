@@ -1,0 +1,89 @@
+{
+  "province": "Limpopo",
+  "towns": {
+    "Polokwane": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Polokwane SAPS",
+          "phone": "015-290-8000",
+          "address": "Landdros Mare Street, Polokwane"
+        },
+        {
+          "category": "Fire",
+          "name": "Polokwane Fire Department",
+          "phone": "015-290-2331",
+          "address": "Municipal Building, Polokwane"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Limpopo EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Pietersburg Hospital",
+          "phone": "015-287-5000",
+          "address": "Hospital Street, Polokwane"
+        }
+      ]
+    },
+    "Tzaneen": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Tzaneen SAPS",
+          "phone": "015-307-8200",
+          "address": "Danie Joubert Street, Tzaneen"
+        },
+        {
+          "category": "Fire",
+          "name": "Tzaneen Fire Services",
+          "phone": "015-307-8911",
+          "address": "Municipal Offices, Tzaneen"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Limpopo EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Letaba Hospital",
+          "phone": "015-307-6300",
+          "address": "Hospital Road, Tzaneen"
+        }
+      ]
+    },
+    "Mokopane": {
+      "services": [
+        {
+          "category": "Police",
+          "name": "Mokopane SAPS",
+          "phone": "015-491-8700",
+          "address": "Thabo Mbeki Street, Mokopane"
+        },
+        {
+          "category": "Fire",
+          "name": "Mokopane Fire Department",
+          "phone": "015-491-9111",
+          "address": "Municipal Building, Mokopane"
+        },
+        {
+          "category": "Ambulance",
+          "name": "Limpopo EMS",
+          "phone": "10177",
+          "address": "Provincial Coverage"
+        },
+        {
+          "category": "Hospital",
+          "name": "Voortrekker Hospital",
+          "phone": "015-491-7000",
+          "address": "Hospital Street, Mokopane"
+        }
+      ]
+    }
+  }
+}
