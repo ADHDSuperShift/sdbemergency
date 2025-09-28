@@ -3,7 +3,6 @@ import { Province, ProvinceData, EmergencyService } from '../types/emergency';
 import ProvinceSelector from './ProvinceSelector';
 import TownSearch from './TownSearch';
 import EmergencyCard from './EmergencyCard';
-// import logoImage from '../assets/logo.png'; // Uncomment and add your logo file
 
 const AppLayout: React.FC = () => {
   const [selectedProvince, setSelectedProvince] = useState<Province | ''>('');
@@ -62,9 +61,9 @@ const AppLayout: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img 
-                src="/sdb.jpg" 
+                src="https://d64gsuwffb70l.cloudfront.net/68d8e1bd004fa987682e61f3_1759044065784_da04892c.webp" 
                 alt="SA Emergency Logo" 
-                className="h-12 w-12 rounded-lg shadow-md"
+                className="h-10 w-10 rounded-full"
               />
               <h1 className="text-2xl font-bold text-red-600">SA Emergency Numbers</h1>
             </div>
