@@ -3,6 +3,7 @@ import { Province, ProvinceData, EmergencyService } from '../types/emergency';
 import ProvinceSelector from './ProvinceSelector';
 import TownSearch from './TownSearch';
 import EmergencyCard from './EmergencyCard';
+import { getBasePath } from '../lib/paths';
 
 const AppLayout: React.FC = () => {
   const [selectedProvince, setSelectedProvince] = useState<Province | ''>('');
@@ -14,7 +15,7 @@ const AppLayout: React.FC = () => {
   const loadProvinceData = async (province: Province) => {
     setLoading(true);
     try {
-      const basePath = '/sdbemergency/';
+      const basePath = getBasePath();
       const response = await fetch(`${basePath}data/${province.toLowerCase().replace(/\s+/g, '')}.json`);
       if (response.ok) {
         const data: ProvinceData = await response.json();
